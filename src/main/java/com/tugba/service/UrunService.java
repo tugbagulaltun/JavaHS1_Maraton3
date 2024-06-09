@@ -27,7 +27,7 @@ public class UrunService {
     }
 
     public List<Urun> getAllByCinsiyetAndBeden(Cinsiyet cinsiyet, Beden beden) {
-        return urunRepository.findAllByCinsiyetAndBeden(cinsiyet, beden);
+        return urunRepository.getAllByCinsiyetAndBeden(cinsiyet, beden);
     }
 
 

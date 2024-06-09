@@ -36,10 +36,8 @@ public class UrunSaveRequestDto {
     List<UrunOzellik> urunOzellikleri;
     @NotNull
     String anaResimURL;
-    @NotNull
-    @Min(value = 1)
-    @Max(value = 3)
-    String altResimURL;
+
+    List<String> altResimURL;
 
 
 

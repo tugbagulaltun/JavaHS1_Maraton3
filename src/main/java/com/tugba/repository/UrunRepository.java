@@ -12,8 +12,7 @@ public interface UrunRepository extends JpaRepository<Urun,Long> {
 
     List<Urun> findAllByAdLikeIgnoreCase(String urunAdi);
 
-    List<Urun> getAllByCinsiyetAndBeden(String urunAdi);
+    List<Urun> getAllByCinsiyetAndBeden(Cinsiyet cinsiyet, Beden beden);
 
 
-    List<Urun> findAllByCinsiyetAndBeden(Cinsiyet cinsiyet, Beden beden);
 }

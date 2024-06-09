@@ -31,7 +31,7 @@ public class Urun {
     private String aciklama;
 
     private String anaResimURL;
-    @OneToMany(mappedBy = "urun", cascade = CascadeType.ALL)
+    @ElementCollection
     @Size(max = 3)
     private List<String> altResimURL;
 
