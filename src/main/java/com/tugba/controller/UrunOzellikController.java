@@ -1,6 +1,6 @@
 package com.tugba.controller;
 import com.tugba.dto.request.UrunOzellikSaveRequestDto;
-import com.tugba.entity.Urun;
+
 import com.tugba.entity.UrunOzellik;
 import com.tugba.service.UrunOzellikService;
 import jakarta.validation.Valid;
